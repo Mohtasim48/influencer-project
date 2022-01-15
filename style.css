@@ -61,6 +61,16 @@ button{
 button:hover{
     background-color: lightgray;
 }
+.icon{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    gap: 40px;
+    border-top: 1px solid lightpink;
+    border-bottom: 1px solid lightpink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
 
 
