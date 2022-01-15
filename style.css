@@ -1,21 +1,41 @@
 body{
     font-family: 'Merriweather', serif;
     font-family: 'Spline Sans', sans-serif;
+    position: absolute;
+    left: 100px;
+    
+    
 }
-.starting{
-    display: flex;
-    display: inline-flex;
+.heading , .navbar{
+    
+    display: inline-block;
     
 }
 .navbar a{
     text-decoration: none;
     margin-right: 20px;
     color: black;
+
     
 }
 .navbar a:hover{
     background-color: lightgray;
 }
+.navbar{
+    
+    
+    
+    padding-left: 800px;
+
+}
+.start{
+    position: relative;
+    top: 40px;
+
+}
+
+
+
  
  
 
