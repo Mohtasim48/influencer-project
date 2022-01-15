@@ -22,17 +22,48 @@ body{
     background-color: lightgray;
 }
 .navbar{
-    
-    
-    
     padding-left: 800px;
-
 }
 .start{
     position: relative;
     top: 40px;
 
 }
+.box{
+    display: flex;
+}
+
+.box{
+    padding-top: 150px;
+
+}
+.box1{
+    margin-left: 100px;
+}
+
+
+.box1 img:hover{
+    background-color: cadetblue;
+    
+}
+span{
+    color: magenta;
+}
+.box2{
+    font-size: 45px;
+}
+button{
+    background-color: mediumpurple;
+    border-radius: 30px;
+    color: mintcream;
+    padding: 20px;
+}
+button:hover{
+    background-color: lightgray;
+}
+
+
+
 
 
 
