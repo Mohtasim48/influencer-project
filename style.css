@@ -140,4 +140,19 @@ button:hover{
 .boxes:hover{
     background-color: lightgoldenrodyellow;
 }
- 
+ .animation{
+     display: flex;
+ }
+ .ending{
+     padding-left: 100px;
+ }
+ .enroll:hover{
+     position: absolute;
+     
+
+}
+ .picture:hover{
+     background-color: lightgrey;
+     transform: skewY(20deg);
+
+ }
