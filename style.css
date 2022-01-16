@@ -80,6 +80,11 @@ button:hover{
 .title{
     text-align: center;
 }
+.ratings , .stars{
+    display:inline-block
+    
+
+}
 
 
 
