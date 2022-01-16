@@ -125,4 +125,19 @@ button:hover{
     margin-left: 60px;
 
 }
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 24px;
+}
+.Outside{
+    color: darkmagenta;
+}
+.small{
+    margin-left: 1110px;
+    padding-top: 50px;
+}
+.boxes:hover{
+    background-color: lightgoldenrodyellow;
+}
  
