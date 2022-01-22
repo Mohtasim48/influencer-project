@@ -139,9 +139,7 @@ button:hover{
     margin-left: 1110px;
     padding-top: 50px;
 }
-.boxes:hover{
-    background-color: lightgoldenrodyellow;
-}
+
  .animation{
      display: flex;
  }
@@ -169,10 +167,31 @@ button:hover{
       
  }
 
- /* media queries*/
- @media only screen and (max-width:600px) {
-     .starting{
-         background-color: red;
-     }
-     
- }
+@media (max-width: 688px) {
+    .boxes{
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 30px;
+        
+
+    }
+    .instrument{
+        flex-direction: column;
+    }
+    .instrument:hover{
+        background-color: lightgoldenrodyellow;
+        float: left;
+        overflow: hidden;
+    }
+    .animation{
+        flex-direction: column;
+        
+    }
+    .ending{
+        padding-left: 0;
+    }
+    
+
+
+    
+}
+
